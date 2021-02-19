@@ -1,0 +1,22 @@
+Bracket Pair Colorizer
+Auto Rename Tag
+Auto Rename Tag
+Live Server
+Auto-Save on Window Change
+
+ที่สร้าง Project >>> C:\xampp\htdocs\login-register
+Test in Chrome : http://localhost/login-register/
+
+DATABASE : millcon
+
+CREATE TABLE users (
+	id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username varchar(100) NOT NULL,
+    email varchar(100) NOT NULL,
+    password varchar(100) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+server.php เป็นไฟล์ที่ใช้ในการติดต่อกับ server PHP เป็นแบบ MySQLi Procedural
+
+include in index.php
+<?php include('server.php'); ? >
