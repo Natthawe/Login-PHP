@@ -3,7 +3,7 @@
     include('server.php');
     $errors = array();
 
-    if(isset($_POST['login_users'])){ //เช็คเมื่อมีการกดปุ่ม login เข้ามา
+    if(isset($_POST['login_employee'])){ //เช็คเมื่อมีการกดปุ่ม login เข้ามา
        //สร้างตัวแปรรับค่า
        $username = mysqli_real_escape_string($conn, $_POST['username']);
        $password = mysqli_real_escape_string($conn, $_POST['password']);
@@ -20,7 +20,7 @@
     if(count($errors) == 0){
         //เช็ครหัสว่าตรงกันหรือไม่
         $password = md5($password);
-        $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password' ";
+        $query = "SELECT * FROM employee WHERE username = '$username' AND password = '$password' ";
         $result = mysqli_query($conn, $query);
 
             //เช็คว่ามี result อยู่จริงหรือไม่

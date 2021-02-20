@@ -47,7 +47,7 @@
             <input type="password" name="password" class="input-field" placeholder="Password">
         </div>
         <div class="input-group">
-            <button type="submit" name="login_users" class="btn"><h3>Sign In</h3></button>
+            <button type="submit" name="login_employee" class="btn"><h3>Sign In</h3></button>
         </div>
         <div class="signup">
             <p>Don't have an account? <strong><a href="register.php">REGISTER NOW</a></strong></p>

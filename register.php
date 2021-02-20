@@ -38,25 +38,25 @@
         <div class="input-group">
             <!-- <label for="username">Username</label> -->
             <i class="fa fa-user icon"></i>
-            <input type="text" name="username" class="input-field" placeholder="Username" required>
+            <input type="text" name="username" class="input-field" placeholder="Username" >
         </div>
         <div class="input-group">
             <!-- <label for="email">Email</label> -->
             <i class="fa fa-envelope icon"></i>
-            <input type="email" name="email" class="input-field" placeholder="Email" required>
+            <input type="email" name="email" class="input-field" placeholder="Email" >
         </div>
         <div class="input-group">
             <!-- <label for="password_1">Password</label> -->
             <i class="fa fa-key icon"></i>
-            <input type="password" name="password_1" class="input-field" placeholder="Password" required>
+            <input type="password" name="password_1" class="input-field" placeholder="Password" >
         </div>
         <div class="input-group">
             <!-- <label for="password_2">Confirm Password</label> -->
             <i class="fa fa-key icon"></i>
-            <input type="password" name="password_2" class="input-field" placeholder="Confirm-Password" required>
+            <input type="password" name="password_2" class="input-field" placeholder="Confirm-Password" >
         </div>
         <div class="input-group">
-            <button type="submit" name="register_users" class="btn"><h3>Register</h3></button>
+            <button type="submit" name="register_employee" class="btn"><h3>Register</h3></button>
         </div>
 
         <div class="login">

@@ -51,7 +51,7 @@
         </div> -->
 
         <div class="input-group example" >
-            <input type="text" placeholder="Search.." name="search2">
+            <input type="text" placeholder="Search from PO .." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
         </div>
 
